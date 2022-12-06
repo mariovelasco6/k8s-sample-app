@@ -7,12 +7,4 @@ resources:
 - base/frontend/service.yaml
 
 
-patchesJson6902:
-- path: base/frontend/deployment.yaml
-  target:
-    group: apps
-    kind: Deployment
-    name: frontend
-    version: v1
-
 ...
