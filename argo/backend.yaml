@@ -1,0 +1,16 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: backend
+  namespace: argo
+spec:
+  project: default
+  source:
+    repoURL: git@github.com:mariovelasco6/k8s-sample-app.git
+    targetRevision: HEAD
+    path: kustomize/dev
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev
+...
