@@ -11,7 +11,6 @@ spec:
     targetRevision: HEAD
     path: kustomize/dev
     kustomize:
-      version: v3.5.1
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
