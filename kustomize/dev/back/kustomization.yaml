@@ -5,11 +5,5 @@ kind: Kustomization
 resources:
   - ../../base/backend
 
-patchesJson6902:
-- path: deployment.yaml
-  target:
-    group: apps
-    kind: Deployment
-    name: backend
 
 ...
