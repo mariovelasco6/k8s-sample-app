@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: git@github.com:mariovelasco6/k8s-sample-app.git
     targetRevision: HEAD
-    path: kustomize/dev/back/
+    path: kustomize/dev/back
     kustomize:
   destination:
     server: https://kubernetes.default.svc

@@ -6,11 +6,10 @@ resources:
   - ../../base/backend
 
 patchesJson6902:
-- path: base/backend/deployment.yaml
+- path: deployment.yaml
   target:
     group: apps
     kind: Deployment
     name: backend
-    version: v1
 
 ...
