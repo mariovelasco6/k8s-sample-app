@@ -4,8 +4,8 @@ kind: Kustomization
 namespace: dev
 
 resources:
-  - deployment.yaml
-  - service.yaml
+  - kustomize/dev/front/deployment.yaml
+  - kustomize/dev/front/service.yaml
 
 
 ...
