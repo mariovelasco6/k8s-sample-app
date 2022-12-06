@@ -4,8 +4,8 @@ kind: Kustomization
 namespace: dev
 
 resources:
-- ../../../base/frontend/deployment.yaml
-- ../../../base/frontend/service.yaml
+  - ../../../base/frontend/deployment.yaml
+  - ../../../base/frontend/service.yaml
 
 
 ...
