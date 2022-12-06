@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: git@github.com:mariovelasco6/k8s-sample-app.git
     targetRevision: HEAD
-    path: kustomize/dev
+    path: kustomize/dev/backend-k.yaml
     kustomize:
       version: v3.5.4
   destination:
